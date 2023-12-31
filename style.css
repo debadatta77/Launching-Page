@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: 100vh;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+    padding: 20px 0;
+    cursor: pointer;
+    margin-left: 65px;
+
+}
+
+.content {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+    margin-left: 65px;
+}
+
+.content h1 {
+    font-size: 64px;
+    font-weight: 600;
+
+}
+
+.content h1 span {
+    color: aqua;
+}
+
+.content button {
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    cursor: pointer;
+    margin-left: 15px;
+
+}
+
+.content button img {
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.time {
+    display: flex;
+    margin-top: 47px;
+}
+
+.time div {
+    flex-basis: 100px;
+}
+
+.time p {
+    font-size: 50px;
+    margin-bottom: -14px;
+    font-weight: 200;
+}
+
+.time span{
+    font-size: 25px;
+    font-weight: 30;
+}
+
+.rocket {
+    width: 250px;
+    position: relative;
+    left: 130%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
